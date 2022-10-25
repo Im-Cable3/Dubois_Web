@@ -1,7 +1,7 @@
 html {
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
-  background-color: #b0bad2
+  background-color: black
 }
 h1 {
   font-size: 60px;
@@ -15,14 +15,53 @@ p, li {
 }
 
 body {
-   width: 800px;
+   width: 98%;
    margin: 0 auto;
    background-color: #ffffff00;
-   padding: 20px 20px 20px 20px;
-   border: 5px solid black;
 }
 
 img {
    display: block;
-   margin: 5 auto;
+   margin: auto;
+}
+
+
+.MainHeader {
+  margin:auto;
+  width: 99%;
+  border: 5px solid black;
+  overflow:auto;
+  list-style-type: none;
+}
+
+.MainBody {
+  margin: auto;
+  width: 99%;
+  background-color: rgb(68, 73, 68);
+  border-radius: 25px;
+  height: 1000px;
+  text-align: center;
+}
+
+.HeaderButton {
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  vertical-align: middle
+}
+
+.ReserveButton {background-color: #ffd500; color: black; margin-right:0px}
+.NormalButton {background-color: rgb(68, 73, 68); color: rgb(255, 255, 255)}
+
+.li {
+  display: inline-block;
 }
